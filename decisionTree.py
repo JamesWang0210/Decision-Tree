@@ -9,8 +9,8 @@ label_1 = sys.argv[4]
 label_2 = sys.argv[5]
 metrics = sys.argv[6]
 
-db = np.genfromtxt(csv_f_1, dtype=None, delimiter=',')
-db_t = np.genfromtxt(csv_f_2, dtype=None, delimiter=',')
+db = np.genfromtxt(csv_f_1, dtype=str, delimiter=',')
+db_t = np.genfromtxt(csv_f_2, dtype=str, delimiter=',')
 tree = []
 
 dp = int(dp)
